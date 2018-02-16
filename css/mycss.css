@@ -1,0 +1,135 @@
+body {
+  font-family: "Raleway", "Helvetica Neue", Arial, Helvetica, Verdana,
+    sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+.hero.mainheader {
+  background: #0f7aff url("/img/header.jpg") center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero.posterheader {
+  background: #fff url("/img/posterheader.svg") center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000;
+}
+
+.postersection {
+  background: #f7f7f7;
+}
+
+.is-info .title.posterheading,
+.is-info.booksheading {
+  color: black;
+}
+a.navbar-item.is-active {
+  color: #ffffff;
+}
+a.navbar-item {
+  color: #fff;
+}
+
+.navbar-menu.is-active {
+  background-color: #333;
+  /*
+   display: block;
+   position: absolute;
+   width: 100%;
+   z-index: 2;
+   height: 300px;
+  */
+}
+
+a.navbar-item:hover,
+a.navbar-item.is-active,
+.navbar-link:hover,
+.navbar-link.is-active {
+  color: #fff;
+}
+
+.notification.is-primary {
+  background-color: #333;
+  color: #fff;
+}
+
+a.navbar-item {
+  color: #fff;
+  text-align: center;
+}
+
+a.navbar-item:hover {
+  color: #bbff00;
+}
+
+.mynavbar {
+  background-color: #333;
+  text-align: center;
+}
+a.navbar-item:hover,
+a.navbar-item.is-active,
+.navbar-link:hover,
+.navbar-link.is-active {
+  background-color: #333;
+}
+
+a.navbar-item:hover.logo {
+  background-color: transparent;
+}
+
+.fa-instagram,
+.fa-facebook {
+  color: #fff;
+}
+
+.title.mainheading {
+  color: #fff;
+}
+
+.is-v-center {
+  display: flex;
+  justify-content: center;
+}
+.hero.black {
+  background-color: #000;
+}
+.hero.black2 {
+  background-color: #000;
+  padding-bottom: 30px;
+}
+
+h1.white {
+  color: #fff;
+}
+
+.column.large-top {
+  margin-top: 50px;
+}
+
+a.botpad {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .rev-in-mob {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+/*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

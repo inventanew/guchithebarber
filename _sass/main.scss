@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+//@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/_all";
+
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+$primary: #06bcef;
+
+@import "../node_modules/bulma/bulma";
+@import "../node_modules/bulma-carousel/dist/bulma-carousel";
